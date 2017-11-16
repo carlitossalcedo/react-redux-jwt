@@ -19,7 +19,6 @@ function validate(values) {
   return hasErrors && errors;
 }
 
-
 //For any field errors upon submission (i.e. not instant check)
 const validateAndSignInUser = (values, dispatch) => {
   return dispatch(signInUser(values))
